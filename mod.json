@@ -1,0 +1,17 @@
+{
+	"Name": "Custom Reward",
+	"Description": "Custom NPCs Reward",
+	"LoadPriority": 1,
+	"RequiredOnClient": false,
+	"Version": "1.0.0",
+
+	"Scripts": [
+		{
+			"Path": "Custom_Reward.nut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "CustomReward_Init"
+			}
+		}
+	]
+}

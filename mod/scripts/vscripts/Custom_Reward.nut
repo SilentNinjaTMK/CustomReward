@@ -57,7 +57,7 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 				reward = 50
 				break;
 			case "npc_titan_atlas_stickybomb_boss_fd": //离子
-                reward = 200
+                reward = 50
 				break;
 			case "npc_titan_ogre_meteor_boss_fd": //烈焰
 				reward = 50

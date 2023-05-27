@@ -24,21 +24,21 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 		//AISettingsName参考AISetting文件
 		{
 			case "npc_drone": //电浆无人机
-				reward = 0
+				reward = 5
 				break;
 			case "npc_soldier": //IMC士兵
-				reward = 0
+				reward = 5
 				break;
 			case "npc_spectre": //迫击炮幽灵战士
-				reward = 0
+				reward = 10
 				break;
-			case "npc_stalker": //潜行者
-				reward = 0
+			case "npc_stalker_fd": //潜行者
+				reward = 15
 				break;
-			case "npc_super_spectre": //死神
-				reward = 0
+			case "npc_super_spectre_fd": //死神
+				reward = 20
 				break;
-			case "npc_frag_drone": //炸蛛
+			case "npc_frag_drone_fd": //炸蛛
                 reward = 5
 				break;
 			case "npc_titan_atlas_tracker": //强力

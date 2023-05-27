@@ -29,7 +29,7 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 			case "npc_soldier": //IMC士兵
 				reward = 5
 				break;
-			case "npc_spectre": //迫击炮幽灵战士
+			case "npc_spectre_mortar": //迫击炮幽灵战士
 				reward = 10
 				break;
 			case "npc_stalker_fd": //潜行者
@@ -63,7 +63,7 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 				reward = 50
 				break;
 			case "npc_titan_stryder_leadwall_boss_fd": //浪人
-				reward = 50
+				reward = 200
 				break;
 			case "npc_titan_stryder_sniper_fd": //北极星
 				reward = 50

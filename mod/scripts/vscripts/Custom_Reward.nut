@@ -41,7 +41,7 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 			case "npc_frag_drone_fd": //炸蛛
                 reward = 5
 				break;
-			case "npc_titan_atlas_tracker": //强力
+			case "npc_titan_atlas_tracker_boss_fd": //强力
 				reward = 50
 				break;
 			case "npc_titan_stryder_leadwall_arc": //电弧

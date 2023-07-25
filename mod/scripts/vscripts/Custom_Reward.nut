@@ -63,7 +63,7 @@ void function OnNPCKilled(entity victim, entity attacker,var damageInfo)
 				reward = 50
 				break;
 			case "npc_titan_stryder_leadwall_boss_fd": //浪人
-				reward = 200
+				reward = 50
 				break;
 			case "npc_titan_stryder_sniper_fd": //北极星
 				reward = 50
